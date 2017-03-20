@@ -1,0 +1,20 @@
+
+#Webstorm
+.idea
+
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
+node_modules
+
+# Users Environment Variables
+.lock-wscript
+
+# Config files
+config/config.production.js
+
+# NPM
+npm-debug.log
+
+# (generate doc with apidoc -i routes -o doc/)
+doc/

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    if(messages)
+        div#H #{messages}
+    form(method='POST')
+        legend Atualize a senha
+        .form-group
+            label(for='password') Nova Senha
+            input.form-control(type='password', name='password', value='', placeholder='Nova Senha', autofocus=true)
+        .form-group
+            label(for='confirm') Confirme a nova senha
+            input.form-control(type='password', name='confirm', value='', placeholder='Confirme a senha')
+        .form-group
+            button.btn.btn-primary(type='submit') Atualize a senha
